@@ -923,7 +923,7 @@ article {
   .pagination li a {
     color: #000;
     background: #fff;
-    color: #000;
+    /*color: #000;*/
     border: 1px solid #e6e6e6;
     margin: 2px; }
     .pagination li a:first-child {
@@ -987,7 +987,7 @@ article {
     width: 100%;
     background: #fff;
     padding: 1.5em;
-    background: white;
+    /*background: white;*/
     margin-bottom: 30px; }
     @media screen and (max-width: 768px) {
       .contact-info-wrap-flex .con-info {
