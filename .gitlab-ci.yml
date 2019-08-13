@@ -59,4 +59,4 @@ deploy1:
   tags:
     - master
   script:
-    - echo "Do your deploy here"
+    - echo "Do your deploy here."
