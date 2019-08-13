@@ -16,18 +16,18 @@ after_script:
 build1:
   stage: build
   only:
-    - develop
+    - master
   tags:
-    - develop
+    - master
   script:
     - echo "Do your build here"
     
 test1:
   stage: test
   only:
-    - develop
+    - master
   tags:
-    - develop
+    - master
   script:
     - echo "Do a test here"
     - echo "For example run a test suite"
@@ -35,9 +35,9 @@ test1:
 test2:
   stage: test
   only:
-    - develop
+    - master
   tags:
-    - develop
+    - master
   script:
     - echo "Do another parallel test here"
     - echo "For example run a lint test"
@@ -45,9 +45,9 @@ test2:
 test3:
   stage: test
   only:
-    - develop
+    - master
   tags:
-    - develop
+    - master
   script:
     - echo "Do another parallel test here"
     - echo "For example run a lint test"
@@ -55,8 +55,8 @@ test3:
 deploy1:
   stage: deploy
   only:
-    - develop
+    - master
   tags:
-    - develop
+    - master
   script:
     - echo "Do your deploy here"
